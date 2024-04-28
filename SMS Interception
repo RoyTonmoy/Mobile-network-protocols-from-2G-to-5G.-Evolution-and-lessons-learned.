@@ -1,0 +1,42 @@
+SMS Interception Attack Using SigPloit:
+
+1. Clone the SigPloit Repository:
+   git clone https://github.com/ethicalhackeragnidhra/SigPloit-ss7.git
+  
+   This will download the SigPloit-ss7 repository to your local machine.
+
+2. Install Prerequisites:
+   Ensure you have the following prerequisites installed on your system:
+   - Python version 2.7
+   - Java version 1.7 or higher
+   - A Linux-based system
+
+3. Set Up IP Addresses:
+   Configure two IP addresses from the same network on localhost. This step is crucial for simulating attacks effectively.
+
+4. Launch SigPloit:
+   Navigate to the SigPloit-ss7 directory that you cloned earlier:
+   cd SigPloit-ss7
+
+   Run SigPloit using Python:
+   python sigploit.py
+
+   This command will start SigPloit and provide you with a menu to select and configure different attacks.
+
+5. Select SMS Interception Attack:
+   In the SigPloit menu, choose the option for SMS Interception attack. This will initiate the process for intercepting SMS messages sent over the SS7 network.
+
+6. Configure SMS Interception Parameters:
+   SigPloit will prompt you to configure parameters for the SMS interception attack, such as the target phone number, message content, and any specific criteria for intercepting SMS messages.
+
+7. Initiate SMS Interception:
+   After configuring the parameters, SigPloit will simulate intercepting SMS messages sent to the target phone number. It will capture and display intercepted SMS messages within the SigPloit interface.
+
+8. Capture Results with Wireshark:
+   Use Wireshark to capture the network traffic during the SMS interception attack. Configure Wireshark to filter and display SS7 messages related to SMS communication.
+
+9. Analyze Interception Results:
+   After intercepting SMS messages and capturing data with Wireshark, analyze the results to observe the intercepted messages, their content, and any relevant information obtained from the intercepted SMS.
+
+10. Review Output and Data:
+    Examine the output in SigPloit and Wireshark to verify if the SMS interception attack was successful. Check for intercepted SMS messages and analyze their content to understand the impact of the attack.

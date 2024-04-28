@@ -1,0 +1,27 @@
+To configure SigPloit, you will need to follow the installation and setup instructions provided by the SigPloit project. 
+Here are general steps you can follow to configure SigPloit on your system:
+
+# Clone the Repository:
+  Open a terminal or command prompt and use the following command:
+
+   git clone https://github.com/alex14324/ss7.git
+
+
+# Install Dependencies:
+   Navigate to the SigPloit directory that you just cloned:
+   cd SigPloit
+
+   Next, install the required dependencies.
+   sudo pip2 install -r requirements.txt
+   This command installs the Python packages required by SigPloit.
+
+# Additional Requirements:
+   Depending on the features you plan to use within SigPloit, may need additional software or configurations.
+
+# Configuration:
+   Some features of SigPloit may require configuration within the tool itself. 
+   This could include setting up parameters for specific attacks, configuring network settings, or providing access credentials if applicable.
+
+# Usage:
+   After configuring SigPloit
+   python sigploit.py

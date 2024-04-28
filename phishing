@@ -1,0 +1,42 @@
+Phishing Attack Using SigPloit:
+
+1. Clone the SigPloit Repository:
+   git clone https://github.com/ethicalhackeragnidhra/SigPloit-ss7.git
+  
+   This will download the SigPloit-ss7 repository to your local machine.
+
+2. Install Prerequisites:**
+   Ensure you have the following prerequisites installed on your system:
+   - Python version 2.7
+   - Java version 1.7 or higher
+   - A Linux-based system
+
+3. Set Up IP Addresses:
+   Configure two IP addresses from the same network on localhost. This step is crucial for simulating attacks effectively.
+
+4. Launch SigPloit:
+   Navigate to the SigPloit-ss7 directory that you cloned earlier:
+   cd SigPloit-ss7
+   
+   Run SigPloit using Python:
+   python sigploit.py
+   
+   This command will start SigPloit and provide you with a menu to select and configure different attacks.
+
+5. Select Phishing Mail Attack:
+   In the SigPloit menu, select the option for Phishing Mail (Fraud) attack. This will initiate the process for launching a phishing attack using email.
+
+6. Configure Phishing Parameters:
+   SigPloit will prompt you to configure parameters for the phishing email, such as the sender's email address, subject, message content, and any malicious links or attachments.
+
+7. Send Phishing Email:
+   Once you have configured the phishing parameters, SigPloit will simulate sending the phishing email to the target email address.
+
+8. Capture Results with Wireshark:
+   Use Wireshark to capture the network traffic during the phishing attack. Configure Wireshark to filter and display email-related traffic, including SMTP and POP3 protocols.
+
+9. Analyze Phishing Results:
+   After sending the phishing email and capturing data with Wireshark, analyze the results to observe the email delivery, recipient's response, and any interactions with malicious links or attachments.
+
+10. Review Output and Data:
+    Examine the output in Wireshark after the phishing attack initialization to verify if the phishing email was delivered successfully and if any malicious actions were taken by the recipient.

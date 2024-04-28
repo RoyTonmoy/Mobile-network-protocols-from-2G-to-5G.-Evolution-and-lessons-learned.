@@ -1,0 +1,38 @@
+Tracking Location Using SigPloit:
+
+1. Clone the SigPloit Repository:
+   git clone https://github.com/ethicalhackeragnidhra/SigPloit-ss7.git
+
+2. Install Prerequisites:
+   Ensure you have the following prerequisites installed on your system:
+   - Python version 2.7
+   - Java version 1.7 or higher
+   - A Linux-based system
+
+3. Set Up IP Addresses:
+   Configure two IP addresses from the same network on localhost. This step is crucial for simulating attacks effectively.
+
+4. Launch SigPloit:
+   Navigate to the SigPloit-ss7 directory that you cloned earlier:
+   cd SigPloit-ss7
+
+   Run SigPloit using Python:
+   python sigploit.py
+
+   This command will start SigPloit and provide you with a menu to select and configure different attacks.
+
+5. Select Location Tracking Attack:
+   In the SigPloit menu, select the option for Location Tracking Attack. This will initiate the process for tracking a user's location within the SS7 network.
+
+6. Simulate AnyTimeInterrogation:
+   SigPloit will simulate the AnyTimeInterrogation (ATI) message to send out a location inquiry. This message requests the current location of the targeted individual within the SS7 network.
+
+7. Capture Results with Wireshark:
+   Use Wireshark to capture the network traffic during the attack. Configure Wireshark to filter and display SS7 messages related to the location tracking attack.
+
+8. Analyze Location Data:
+   After initiating the attack and capturing data with Wireshark, analyze the results to extract the location information of the targeted individual. Look for specific SS7 messages containing location details such as Latitude and Longitude.
+
+9. Review Output and Data:
+   Examine the output in Wireshark after the attack initialization to verify if the location tracking attack was successful. The captured data should include confirmation messages containing the targeted individual's location information.
+
